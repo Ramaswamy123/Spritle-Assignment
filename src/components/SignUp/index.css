@@ -1,0 +1,70 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: rgb(20, 226, 226);
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  height: 65vh;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+}
+.login-heading {
+  font-size: 30px;
+  font-family: 'Roboto';
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin: 16px 0px 10px 0px;
+  height: 60px;
+}
+
+.label {
+  margin-bottom: 5px;
+}
+.input {
+  width: 220px;
+  height: 20px;
+  cursor: pointer;
+  outline: none;
+  margin-bottom: 10px;
+}
+.input-role {
+  width: 120px;
+}
+.button {
+  height: 40px;
+  width: 90px;
+  /* font-family:"Roboto"; */
+  background-color: rgb(191, 202, 33);
+  margin: 10px;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-decoration: none;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+.button:hover {
+  height: 42px;
+  width: 92px;
+  position: static;
+}
